@@ -1,0 +1,44 @@
+<html>
+<head>
+    <style>
+        table {
+            font-family: arial, sans-serif;
+            border-collapse: collapse;
+            width: 100%;
+        }
+
+        td, th {
+            border: 1px solid #dddddd;
+            text-align: left;
+            padding: 8px;
+        }
+
+        tr:nth-child(even) {
+            background-color: #dddddd;
+        }
+    </style>
+</head>
+
+<body>
+<h3><a href="/logout">Logout</a></h3>
+<h2>ING DUTCH ATMS:</h2>
+<table>
+    <tr>
+        <th>Street</th>
+        <th>House</th>
+        <th>City</th>
+        <th>Distance</th>
+        <th>Type</th>
+    </tr>
+    #foreach ($atm in ${exchange.properties.atms})
+        <tr>
+            <td>$atm.address.street</td>
+            <td>$atm.address.houseNumber</td>
+            <td>$atm.address.city</td>
+            <td>$atm.distance</td>
+            <td>$atm.type</td>
+        </tr>
+    #end
+</table>
+</body>
+</html>
