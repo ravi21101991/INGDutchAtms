@@ -1,4 +1,4 @@
-package com.mobiquityinc.backbase.configuration;
+package com.mobiquityinc.backbase.app.configuration;
 
 import org.apache.camel.component.servlet.CamelHttpTransportServlet;
 import org.springframework.web.WebApplicationInitializer;

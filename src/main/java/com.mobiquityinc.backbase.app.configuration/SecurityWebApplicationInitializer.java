@@ -1,4 +1,4 @@
-package com.mobiquityinc.backbase.configuration;
+package com.mobiquityinc.backbase.app.configuration;
 
 import org.springframework.security.web.context.AbstractSecurityWebApplicationInitializer;
 

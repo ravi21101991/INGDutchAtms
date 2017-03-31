@@ -1,4 +1,4 @@
-package com.mobiquityinc.backbase.configuration;
+package com.mobiquityinc.backbase.app.configuration;
 
 import com.mobiquityinc.backbase.app.processor.INGDutchAtmCamelProcessor;
 

@@ -1,4 +1,4 @@
-package com.mobiquityinc.backbase.configuration;
+package com.mobiquityinc.backbase.app.configuration;
 
 import org.springframework.context.annotation.ComponentScan;
 import org.springframework.context.annotation.Configuration;

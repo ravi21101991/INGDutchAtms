@@ -1,4 +1,4 @@
-package com.mobiquityinc.backbase.configuration;
+package com.mobiquityinc.backbase.app.configuration;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.security.config.annotation.authentication.builders.AuthenticationManagerBuilder;
